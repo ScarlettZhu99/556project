@@ -26,37 +26,12 @@
       <file leaf-file-name="pip_sense_layer.v2.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pip_sense_layer.v2.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="391" column="112" lean-forward="true" selection-start-line="391" selection-start-column="112" selection-end-line="391" selection-end-column="112" />
+            <state relative-caret-position="501">
+              <caret line="371" column="42" selection-start-line="371" selection-start-column="42" selection-end-line="371" selection-end-column="42" />
               <folding>
-                <element signature="e#477#496#0" expanded="true" />
                 <element signature="e#1116#1393#0" />
                 <element signature="e#1945#2658#0" />
                 <element signature="e#3198#6896#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sample_data.hpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sample_data.hpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="61" column="12" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pip_sense_layer.v2.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/pip_sense_layer.v2.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="219" selection-start-line="219" selection-end-line="219" />
-              <folding>
-                <element signature="e#1116#1393#0" />
-                <element signature="e#1396#1536#0" />
-                <element signature="e#1945#2658#0" />
-                <element signature="e#3198#6882#0" />
               </folding>
             </state>
           </provider>
@@ -90,7 +65,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -102,6 +76,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -141,11 +116,13 @@
       <updated>1557080921173</updated>
       <workItem from="1557080922593" duration="382000" />
       <workItem from="1557108944015" duration="2923000" />
+      <workItem from="1557112590212" duration="560000" />
+      <workItem from="1557113188107" duration="18000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3305000" />
+    <option name="totallyTimeSpent" value="3883000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -155,7 +132,6 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="CMake" order="7" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32993197" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -168,6 +144,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32993197" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,10 +167,47 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pip_sense_layer.v2.cpp">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6307">
+          <caret line="371" column="42" selection-start-line="371" selection-start-column="42" selection-end-line="371" selection-end-column="42" />
+          <folding>
+            <element signature="e#1116#1393#0" />
+            <element signature="e#1945#2658#0" />
+            <element signature="e#3198#6896#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pip_sense_layer.v2.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6647">
+          <caret line="391" column="112" lean-forward="true" selection-start-line="391" selection-start-column="112" selection-end-line="391" selection-end-column="112" />
+          <folding>
+            <element signature="e#1116#1393#0" />
+            <element signature="e#1945#2658#0" />
+            <element signature="e#3198#6896#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample_data.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="61" column="12" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/pip_sense_layer.v2.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3723">
+          <caret line="219" selection-start-line="219" selection-end-line="219" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pip_sense_layer.v2.cpp">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4437">
           <caret line="261" selection-start-line="261" selection-end-line="261" />
           <folding>
-            <element signature="e#477#496#0" expanded="true" />
             <element signature="e#1116#1393#0" />
             <element signature="e#1945#2658#0" />
             <element signature="e#3198#6896#0" />
@@ -206,33 +220,10 @@
         <state relative-caret-position="-3111" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sensor_aggregator_protocol.hpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/simple_sockets.hpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="88" column="35" lean-forward="true" selection-start-line="88" selection-start-column="35" selection-end-line="88" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sample_data.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="61" column="12" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/pip_sense_layer.v2.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="219" selection-start-line="219" selection-end-line="219" />
-          <folding>
-            <element signature="e#1116#1393#0" />
-            <element signature="e#1396#1536#0" />
-            <element signature="e#1945#2658#0" />
-            <element signature="e#3198#6882#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -243,12 +234,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Desktop/pip_sense_layer.v2.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1598">
+          <caret line="219" selection-start-line="219" selection-end-line="219" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample_data.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="61" column="12" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pip_sense_layer.v2.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="391" column="112" lean-forward="true" selection-start-line="391" selection-start-column="112" selection-end-line="391" selection-end-column="112" />
+        <state relative-caret-position="501">
+          <caret line="371" column="42" selection-start-line="371" selection-start-column="42" selection-end-line="371" selection-end-column="42" />
           <folding>
-            <element signature="e#477#496#0" expanded="true" />
             <element signature="e#1116#1393#0" />
             <element signature="e#1945#2658#0" />
             <element signature="e#3198#6896#0" />

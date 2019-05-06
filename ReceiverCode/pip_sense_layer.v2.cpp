@@ -390,9 +390,10 @@ int main(int ac, char** arg_vector) {
 
 		//printf("Dropped:%u\tBrd ID:%d\tTagID:%d\t\tDatLen:%d\tRSSI:%.2f\tData[0]:%lx\n",pkt->dropped,baseID,netID,(int)signed_buf[0],sd.rss,pkt->data[0]);
 		printf("TS:%'lld\tDrop:%u\tRX:%ld\tTX:%05d\tRSSI:%.2f\t%s\tData:",unix_time,pkt->dropped,baseID,netID,sd.rss,pkt->crcok ? "    CRC":"BAD CRC");
-		for (size_t i = 0; i < sd.sense_data.size(); ++i) {
+		/*for (size_t i = 0; i < sd.sense_data.size(); ++i) {
 		    printf(" %02x",(unsigned int)sd.sense_data[i]);
 		}
+		 */
 
 		printf("  | ");
 
@@ -401,7 +402,17 @@ int main(int ac, char** arg_vector) {
 		int data_humidity =  (unsigned int) sd.sense_data[4]*256+(unsigned int) sd.sense_data[5];
 
 		if(data_light>=150){
-            printf("light: %d", data_light);
+            printf("  Alarm Mute ");
+            continue;
+		}
+		else if( data_light < 150 && countCover==0){
+            printf("  Alarm start, left time %3d \t " , (init_time-tval.tv_sec));
+            continue;
+		}
+		else if(data_light < 150 && countCover==1){
+		    printf("Alarm stop \t");
+		    countCover=0;
+            continue;
 		}
 
 
