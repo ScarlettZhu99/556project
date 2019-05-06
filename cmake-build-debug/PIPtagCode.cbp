@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="PIPtagCode"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/CPE556/PIPtagCode/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/CPE556/PIPtagCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/CPE556/PIPtagCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/CPE556/PIPtagCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/CPE556/PIPtagCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PIPtagCode">
+				<Option output="D:/CPE556/PIPtagCode/cmake-build-debug/PIPtagCode.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/CPE556/PIPtagCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CPE556/PIPtagCode/PIPtagCode"/>
+					<Add directory="D:/CPE556/PIPtagCode/PIPtagCode/CC110x"/>
+					<Add directory="D:/CPE556/PIPtagCode/PIPtagCode/Owl"/>
+					<Add directory="D:/CPE556/PIPtagCode/PIPtagCode/sensing"/>
+					<Add directory="D:/CPE556/PIPtagCode/ReceiverCode"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/CPE556/PIPtagCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 PIPtagCode"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/CPE556/PIPtagCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/CPE556/PIPtagCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/CPE556/PIPtagCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PIPtagCode/fast">
+				<Option output="D:/CPE556/PIPtagCode/cmake-build-debug/PIPtagCode.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/CPE556/PIPtagCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/CPE556/PIPtagCode/PIPtagCode"/>
+					<Add directory="D:/CPE556/PIPtagCode/PIPtagCode/CC110x"/>
+					<Add directory="D:/CPE556/PIPtagCode/PIPtagCode/Owl"/>
+					<Add directory="D:/CPE556/PIPtagCode/PIPtagCode/sensing"/>
+					<Add directory="D:/CPE556/PIPtagCode/ReceiverCode"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/CPE556/PIPtagCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 PIPtagCode/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/CPE556/PIPtagCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/CPE556/PIPtagCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/CPE556/PIPtagCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/CPE556/PIPtagCode/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/CPE556/PIPtagCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/CPE556/PIPtagCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/CPE556/PIPtagCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/CPE556/PIPtagCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/CPE556/PIPtagCode/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/CPE556/PIPtagCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/CPE556/PIPtagCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/CPE556/PIPtagCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/CPE556/PIPtagCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/CPE556/PIPtagCode/PIPtagCode/CC110x/CC1100-CC2500.c">
+			<Option target="PIPtagCode"/>
+		</Unit>
+		<Unit filename="D:/CPE556/PIPtagCode/PIPtagCode/CC110x/CC1100-CC2500.h">
+			<Option target="PIPtagCode"/>
+		</Unit>
+		<Unit filename="D:/CPE556/PIPtagCode/PIPtagCode/CC110x/TI_CC_CC1100-CC2500.h">
+			<Option target="PIPtagCode"/>
+		</Unit>
+		<Unit filename="D:/CPE556/PIPtagCode/PIPtagCode/CC110x/TI_CC_hardware_board_2553.h">
+			<Option target="PIPtagCode"/>
+		</Unit>
+		<Unit filename="D:/CPE556/PIPtagCode/PIPtagCode/CC110x/TI_CC_msp430.h">
+			<Option target="PIPtagCode"/>
+		</Unit>
+		<Unit filename="D:/CPE556/PIPtagCode/PIPtagCode/CC110x/TI_CC_spi.c">
+			<Option target="PIPtagCode"/>
+		</Unit>
+		<Unit filename="D:/CPE556/PIPtagCode/PIPtagCode/CC110x/TI_CC_spi.h">
+			<Option target="PIPtagCode"/>
+		</Unit>
+		<Unit filename="D:/CPE556/PIPtagCode/PIPtagCode/CC110x/definitions.h">
+			<Option target="PIPtagCode"/>
+		</Unit>
+		<Unit filename="D:/CPE556/PIPtagCode/PIPtagCode/CC110x/rfsuite.c">
+			<Option target="PIPtagCode"/>
+		</Unit>
+		<Unit filename="D:/CPE556/PIPtagCode/PIPtagCode/CC110x/rfsuite.h">
+			<Option target="PIPtagCode"/>
+		</Unit>
+		<Unit filename="D:/CPE556/PIPtagCode/PIPtagCode/CC110x/tuning.c">
+			<Option target="PIPtagCode"/>
+		</Unit>
+		<Unit filename="D:/CPE556/PIPtagCode/PIPtagCode/CC110x/tuning.h">
+			<Option target="PIPtagCode"/>
+		</Unit>
+		<Unit filename="D:/CPE556/PIPtagCode/PIPtagCode/Owl/history.c">
+			<Option target="PIPtagCode"/>
+		</Unit>
+		<Unit filename="D:/CPE556/PIPtagCode/PIPtagCode/Owl/history.h">
+			<Option target="PIPtagCode"/>
+		</Unit>
+		<Unit filename="D:/CPE556/PIPtagCode/PIPtagCode/Owl/mem_pool.c">
+			<Option target="PIPtagCode"/>
+		</Unit>
+		<Unit filename="D:/CPE556/PIPtagCode/PIPtagCode/Owl/mem_pool.h">
+			<Option target="PIPtagCode"/>
+		</Unit>
+		<Unit filename="D:/CPE556/PIPtagCode/PIPtagCode/floatToBits.cpp">
+			<Option target="PIPtagCode"/>
+		</Unit>
+		<Unit filename="D:/CPE556/PIPtagCode/PIPtagCode/interrupt.c">
+			<Option target="PIPtagCode"/>
+		</Unit>
+		<Unit filename="D:/CPE556/PIPtagCode/PIPtagCode/interrupt.h">
+			<Option target="PIPtagCode"/>
+		</Unit>
+		<Unit filename="D:/CPE556/PIPtagCode/PIPtagCode/main.c">
+			<Option target="PIPtagCode"/>
+		</Unit>
+		<Unit filename="D:/CPE556/PIPtagCode/PIPtagCode/main.h">
+			<Option target="PIPtagCode"/>
+		</Unit>
+		<Unit filename="D:/CPE556/PIPtagCode/PIPtagCode/optical_conn.c">
+			<Option target="PIPtagCode"/>
+		</Unit>
+		<Unit filename="D:/CPE556/PIPtagCode/PIPtagCode/optical_conn.h">
+			<Option target="PIPtagCode"/>
+		</Unit>
+		<Unit filename="D:/CPE556/PIPtagCode/PIPtagCode/sensing/battery.c">
+			<Option target="PIPtagCode"/>
+		</Unit>
+		<Unit filename="D:/CPE556/PIPtagCode/PIPtagCode/sensing/battery.h">
+			<Option target="PIPtagCode"/>
+		</Unit>
+		<Unit filename="D:/CPE556/PIPtagCode/PIPtagCode/sensing/htu21d.c">
+			<Option target="PIPtagCode"/>
+		</Unit>
+		<Unit filename="D:/CPE556/PIPtagCode/PIPtagCode/sensing/htu21d.h">
+			<Option target="PIPtagCode"/>
+		</Unit>
+		<Unit filename="D:/CPE556/PIPtagCode/PIPtagCode/sensing/light.c">
+			<Option target="PIPtagCode"/>
+		</Unit>
+		<Unit filename="D:/CPE556/PIPtagCode/PIPtagCode/sensing/light.h">
+			<Option target="PIPtagCode"/>
+		</Unit>
+		<Unit filename="D:/CPE556/PIPtagCode/PIPtagCode/sensing/moisture.c">
+			<Option target="PIPtagCode"/>
+		</Unit>
+		<Unit filename="D:/CPE556/PIPtagCode/PIPtagCode/sensing/moisture.h">
+			<Option target="PIPtagCode"/>
+		</Unit>
+		<Unit filename="D:/CPE556/PIPtagCode/PIPtagCode/sensing/sensing.c">
+			<Option target="PIPtagCode"/>
+		</Unit>
+		<Unit filename="D:/CPE556/PIPtagCode/PIPtagCode/sensing/sensing.h">
+			<Option target="PIPtagCode"/>
+		</Unit>
+		<Unit filename="D:/CPE556/PIPtagCode/PIPtagCode/sensing/temperature.c">
+			<Option target="PIPtagCode"/>
+		</Unit>
+		<Unit filename="D:/CPE556/PIPtagCode/PIPtagCode/sensing/temperature.h">
+			<Option target="PIPtagCode"/>
+		</Unit>
+		<Unit filename="D:/CPE556/PIPtagCode/PIPtagCode/settings.h">
+			<Option target="PIPtagCode"/>
+		</Unit>
+		<Unit filename="D:/CPE556/PIPtagCode/ReceiverCode/pip_sense_layer.v2.cpp">
+			<Option target="PIPtagCode"/>
+		</Unit>
+		<Unit filename="D:/CPE556/PIPtagCode/ReceiverCode/sample_data.hpp">
+			<Option target="PIPtagCode"/>
+		</Unit>
+		<Unit filename="D:/CPE556/PIPtagCode/ReceiverCode/sensor_aggregator_protocol.hpp">
+			<Option target="PIPtagCode"/>
+		</Unit>
+		<Unit filename="D:/CPE556/PIPtagCode/ReceiverCode/simple_sockets.hpp">
+			<Option target="PIPtagCode"/>
+		</Unit>
+		<Unit filename="D:/CPE556/PIPtagCode/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
